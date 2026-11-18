@@ -1,0 +1,18 @@
+first_name = input("Enter first name: ").strip()
+last_name = input("Enter last name: ").strip()
+section = input("Enter section: ").strip()
+favorite_subject = input("Enter favorite subject: ").strip()
+
+full_name = first_name + " " + last_name
+proper_name = full_name.title()
+uppercase_name = full_name.upper()
+uppercase_section = section.upper()
+proper_subject = favorite_subject.title()
+char_count = len(full_name)
+
+print("\nFormatted Output:")
+print("Name:", proper_name)
+print("Name Code:", uppercase_name)
+print("Section:", uppercase_section)
+print("Favorite Subject:", proper_subject)
+print("Character Count:", char_count)
